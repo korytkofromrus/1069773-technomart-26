@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Сергей Корытко](https://up.htmlacademy.ru/htmlcss/26/user/1069773).
-* Наставник: [Магомед Кандаев] (https://up.htmlacademy.ru/htmlcss/26/user/161600)
+* Наставник: [Магомед Кандаев](https://up.htmlacademy.ru/htmlcss/26/user/161600)
 
 ---
 
