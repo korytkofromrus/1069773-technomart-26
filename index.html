@@ -5,48 +5,48 @@
     <title>Магазин техники "Техномарт"</title>
   </head>
   <body>
-    <header>
-      <a class="main-logo" href="index.html">
-        <img src="logo.svg" width="150" height="100" alt="Техномарт">
-      </a>
-      <section class="search">
-        <h2 class="visually-hidden">Поиск</h2>
-        <p>Поиск:
-        </p>
-      </section>
-      <span><a class="bookmarks" href="#">Закладки</a></span>
-      <!-- Ставлю span, потому что не знаю пока, чем именно будет: пупапом, ссылкой или еще чем -->
-      <span><a class="basket" href="#">Карзина</a></span>
-      <!-- Ставлю span, потому что не знаю пока, чем именно будет: пупапом, ссылкой или еще чем -->
-      <a class="buy-now" href="#">Оформить заказ</a>
-      <section class="head-info">
-        <h2 class="visually-hidden">Информация о магазине</h2>
-        <p>Интернет-магазин<br>
-          строительных материалов<br>
-          и инструментов для ремонта</p>
-        <p class="phone">+7 (812) 555-05-55</p>
-        <p class="address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19.8</p>
-        <ul>
-          <li><button type="button">Войти</button></li>
-          <li><a href="#">Регистрация</a></li>
-        </ul>
-      </section>
+    <header class="menu">
+      <div class="attic-up">
+      <a class="main-logo"><img src="https://via.placeholder.com/150x100" alt="Техномарт"></a>
+        <!-- Поиск -->
+        <a href="#" class="bookmark">Закладки: 0</a>
+        <a href="#" class="basket">Корзина: 0</a>
+        <a href="#" class="order">Оформить заказ</a>
+      </div>
+      <div class="attic-center">
+       <div class="box">
+           <div class="tagline">
+             <p>Интернет-магазин
+             строительных материалов<
+             и инструментов для ремонта</p>
+           </div>
+           <div class="contact">
+             <a href="tel:+7 (812) 555-05-55">+7 (812) 555-05-55</a>
+             <p class="address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+           </div>
+           <div class="profile">
+             <a href="#" class="login">Войти</a>
+             <a href="#" class="registration">регистрация</a>
+           </div>
+         </div>
+        </div>
       <nav class="main-nav">
         <ul>
-          <li><a href="index.html">Главная</a></li>
-          <li><a href="">Компания</a></li>
+          <li><a href="#">Главная</a></li>
+          <li><a href="#">Компания</a></li>
           <li><a href="catalog.html">Каталог</a></li>
-          <li><a href="">Новости</a></li>
-          <li><a href="">Спецпредложения</a></li>
-          <li><a href="">Доставка</a></li>
-          <li><a href="">Контакты</a></li>
+          <li><a href="#">Новости</a></li>
+          <li><a href="#">Спецпредложения</a></li>
+          <li><a href="#">Доставка</a></li>
+          <li><a href="#">Контакты</a></li>
         </ul>
       </nav>
     </header>
     <main class="container">
       <h1 class="visually-hidden">Магазин Техномарт</h1>
       <!-- Место для расположение товаров и производителей -->
-      <section class="short-about">
+      <div class="about-us">
+        <section class="short-about">
         <h2>Компания "Техномарт"</h2>
         <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и<br>
            строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
@@ -64,9 +64,10 @@
         <h2 class="visually-hidden">Самовывоз</h2>
         <p>Вы можете забрать товар сами,<br> заехав в наш офис:</p>
               <!--Могу ли я интегрировать сюда яндекс карту?  -->
-        <img src="map.jpg" alt="Схема проезда">
+        <img src="https://via.placeholder.com/150x100" alt="Схема проезда">
         <button type="button">Заблудились? Напишите нам!</button>
       </section>
+    </div>
     </main>
     <footer>
     <section>
@@ -95,13 +96,10 @@
       </section>
       <section class="cellar">
         <h2 class="visually-hidden">Наши ссылки</h2>
-        <section class="copyright">
-          <h2 class="visually-hidden">Копирайт</h2>
-        <p>© 2010—2019 Компания "Техномарт"<br>
+        <p class="copyright">© 2010—2019 Компания "Техномарт"<br>
         Все права защищены.</p>
       </section>
-    </section>
-      <div>
+    <div>
       <ul>
         <li><a href="#">Вконтакте</a></li>
         <li><a href="#">Фэйсбук</a></li>
@@ -111,7 +109,7 @@
     <p>Обратная связь:<br>
     <a href="mail@htmlacademy.ru">mail@htmlacademy.ru</a></p>
     <p>Разработано -<br>
-      <a href="https://htmlacademy.ru/">HTML ACADEMY</a></p>
+      <a href="https://htmlacademy.ru/">html academy</a></p>
     </footer>
     <section>
       <h2>Личный кабинет</h2>
